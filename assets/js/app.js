@@ -27,6 +27,9 @@ resetear.addEventListener("click", function(e){
 
     var codigo = l1 + n1 + l2 + n2 + l3 + n3 + l4;
     document.getElementById('cap').value = codigo;
+
+    var escribir = document.getElementById('escribir');
+    escribir.value ="";
   }
 
 /** validar que el captcha sea igual**/

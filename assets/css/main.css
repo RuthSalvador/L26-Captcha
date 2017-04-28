@@ -1,0 +1,69 @@
+section {
+  height: 300px;
+  width: 380px;
+  text-align: center;
+}
+
+.cuadro {
+  box-sizing: border-box;
+  background-color: rgb(139, 30, 46);
+  width: 380px;
+  height: 253px;
+  position: relative;
+}
+
+h1 {
+  color: rgb(139, 30, 46);
+}
+
+span{
+  position: fixed;
+  left: 400px;
+}
+
+#cap {
+  box-sizing: border-box;
+  height: 115px;
+  width: 370px;
+  margin: 10px 5px 0px 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 4rem;
+  text-align: center;
+}
+
+#escribir {
+  height: 100px;
+  width: 210px;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  background-color: rgb(249, 231, 119);
+  font-size: 3rem;
+}
+
+img {
+  height: 60px;
+  width: 100px;
+  position: absolute;
+  right: 5px;
+  bottom: 55px;
+}
+
+.boton {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 122px;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  border: none;
+  background-color: rgb(139, 30, 46);
+}
+
+#resetear {
+  bottom: 90px;
+}
+
+#validar {
+  bottom: 60px;
+}
