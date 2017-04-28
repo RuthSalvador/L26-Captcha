@@ -17,8 +17,11 @@ h1 {
 }
 
 span{
-  position: fixed;
-  left: 400px;
+  position: absolute;
+  right: 1px;
+  bottom: 10px;
+  color: rgb(242, 255, 0);
+
 }
 
 #cap {

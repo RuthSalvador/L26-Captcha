@@ -30,6 +30,7 @@ resetear.addEventListener("click", function(e){
 
     var escribir = document.getElementById('escribir');
     escribir.value ="";
+    ocultar(escribir);
   }
 
 /** validar que el captcha sea igual**/
@@ -56,12 +57,12 @@ element.addEventListener("submit", function(event) {
   }
 
   function ocultar(input){
-    var span = input.nextElementSibling;
+    var span = document.getElementById("spany")
     span.setAttribute("style","display:none");
   }
 
   function mostrar(alerta,input){
-      var span = input.nextElementSibling;
+      var span = document.getElementById("spany")
       span.setAttribute("style","display:block");
-      span.appendChild(document.createTextNode(alerta));
+      span.innerHTML = alerta;
   }
